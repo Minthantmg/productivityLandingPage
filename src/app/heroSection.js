@@ -9,7 +9,8 @@ const HeroSection = () => {
             <div className="w-full max-w-7xl">
                 <div className="sm:flex sm:pt-20">
                     <div className="sm:w-1/2 sm:mt-6 sm:order-2 mt-6">
-                        <Image src={heroImage} alt=""/>
+                        <Image src={heroImage} alt=""
+                        />
                     </div>
                     <div className="sm:w-1/2 sm:mt-32 sm:ml-3 mt-12 sm:order-1">
                         <div className="sm:text-5xl font-bold text-3xl text-center sm:text-left">
