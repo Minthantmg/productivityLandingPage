@@ -6,6 +6,8 @@ import Design from "@/app/design";
 import Product from "@/app/product";
 import Marketer from "@/app/marketer";
 import Need from "@/app/need";
+import Footer from "@/app/footer";
+import Carousel from "@/app/carousel";
 
 const Page = () => {
     return (
@@ -30,6 +32,8 @@ const Page = () => {
                 <section id="need">
                     <Need />
                 </section>
+                <Carousel />
+                <Footer />
             </div>
         </div>
     );
