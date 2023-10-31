@@ -13,30 +13,30 @@ const Footer = () => {
                     <div>
                         <div className="flex sm:mt-32 sm:mb-32 mt-12 ml-10 sm:ml-0">
                             <div className="sm:mr-60 mr-20">
-                                <div className="text-gray-500">
+                                <div className="text-gray-500 cursor-pointer">
                                     About us
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     Blog
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     Contact
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     FAQ
                                 </div>
                             </div>
                             <div>
-                                <div className="text-gray-500">
+                                <div className="text-gray-500 cursor-pointer">
                                     Disclaim
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     Financing
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     Privacy Policy
                                 </div>
-                                <div className="mt-2 text-gray-500">
+                                <div className="mt-2 text-gray-500 cursor-pointer">
                                     Terms of Service
                                 </div>
                             </div>

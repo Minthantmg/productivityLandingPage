@@ -7,10 +7,12 @@ import Link from 'next/link';
 const Nav = () => {
     return (
         <div className="flex justify-center w-full">
-            <div className="w-full max-w-7xl">
-                <div className="flex justify-between">
+            <div className="w-full max-w-7xl fixed">
+                <div className="flex justify-between bg-white">
                     <div className="sm:mt-8 sm:ml-4 mt-4 ml-2 mb-4">
+                        <a href="#hero">
                         <Image src={logo} alt=""/>
+                        </a>
                     </div>
                     <div className="sm:flex sm:mt-4 sm:ml-4 hidden">
                         <div className="sm:mr-4 sm:mt-4 cursor-pointer hover:text-orange-300">

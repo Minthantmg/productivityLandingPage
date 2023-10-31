@@ -7,7 +7,7 @@ const HeroSection = () => {
     return (
         <div className="flex justify-center w-full h-screen mt-24">
             <div className="w-full max-w-7xl">
-                <div className="sm:flex">
+                <div className="sm:flex sm:pt-20">
                     <div className="sm:w-1/2 sm:mt-6 sm:order-2 mt-6">
                         <Image src={heroImage} alt=""/>
                     </div>
