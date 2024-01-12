@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import design from "../../public/designImage.png";
+import design from "../../../public/designImage.png";
 
 const Design = () => {
     return (

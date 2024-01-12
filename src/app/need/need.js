@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from "next/image";
-import imageOne from '../../public/chatone.png'
-import imageTwo from '../../public/chattwo.png'
-import imageThree from '../../public/chatthree.png'
-import imageFour from '../../public/chatfour.png'
-import imageFive from '../../public/chatfive.png'
+import imageOne from '../../../public/chatone.png'
+import imageTwo from '../../../public/chattwo.png'
+import imageThree from '../../../public/chatthree.png'
+import imageFour from '../../../public/chatfour.png'
+import imageFive from '../../../public/chatfive.png'
 
 const Need = () => {
     return (

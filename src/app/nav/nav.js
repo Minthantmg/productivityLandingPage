@@ -1,9 +1,9 @@
 'use client'
 import React, {useState} from 'react';
 import Image from "next/image";
-import logo from '../../public/Logo.png'
-import hamburger from '../../public/hamburger.svg'
-import closeIcon from '../../public/close.svg'
+import logo from '../../../public/Logo.png'
+import hamburger from '../../../public/hamburger.svg'
+import closeIcon from '../../../public/close.svg'
 
 const Nav = () => {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -47,7 +47,7 @@ const Nav = () => {
                             </a>
                         </div>
                         <div className="sm:mr-2 sm:mt-3">
-                            <button className="border border-indigo-300 px-2 py-1 rounded-sm hover:border-orange-300">
+                            <button className="border border-indigo-300 px-2 py-1 rounded-sm hover:border-orange-300 hover:text-orange-400">
                                 Sign in
                             </button>
                         </div>

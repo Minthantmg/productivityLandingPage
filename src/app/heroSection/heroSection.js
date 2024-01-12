@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from "next/image";
-import play from "../../public/playIcon.png";
-import heroImage from "../../public/heroImage.png"
+import play from "../../../public/playIcon.png";
+import heroImage from "../../../public/heroImage.png"
 
 const HeroSection = () => {
     return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
                                 <div>
                                     <Image src={play} alt=""/>
                                 </div>
-                                <div className="sm:ml-2 underline text-orange-400 ml-2 sm:mt-0 -mt-1">
+                                <div className="sm:ml-2 underline text-orange-400 ml-2 sm:mt-0 -mt-1 cursor-pointer">
                                     Watch the Video
                                 </div>
                             </div>

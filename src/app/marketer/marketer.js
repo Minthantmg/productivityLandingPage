@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import marketer from "../../public/marketerImage.png";
+import marketer from "../../../public/marketerImage.png";
 
 const Marketer = () => {
     return (
