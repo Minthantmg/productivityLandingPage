@@ -1,13 +1,13 @@
 import React from 'react';
-import Nav from "@/app/nav/nav";
-import Tool from "@/app/tool/tool";
-import HeroSection from "@/app/heroSection/heroSection";
-import Design from "@/app/design/design";
-import Product from "@/app/product/product";
-import Marketer from "@/app/marketer/marketer";
-import Need from "@/app/need/need";
-import Footer from "@/app/footer/footer";
-import Carousel from "@/app/carousel/carousel";
+import Nav from "@/app/component/nav";
+import Tool from "@/app/component/tool";
+import HeroSection from "@/app/component/heroSection";
+import Design from "@/app/component/design";
+import Product from "@/app/component/product";
+import Marketer from "@/app/component/marketer";
+import Need from "@/app/component/need";
+import Footer from "@/app/component/footer";
+import Carousel from "@/app/component/carousel";
 
 const Page = () => {
     return (
